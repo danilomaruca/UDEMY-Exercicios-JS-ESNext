@@ -1,4 +1,4 @@
-// Arrow Function
+// Arrow Function "=>" (sintaxe mais reduzida e flexível)
 const soma = (a, b) => a + b
 console.log(soma(2, 3))
 
@@ -8,15 +8,14 @@ const lexico2 = lexico1.bind({})
 lexico1()
 lexico2()
 
-// parametro default
+// Parametro default (definir valor padrão para uma função)
 function log(texto = 'Node') {
     console.log(texto)
 }
-
 log()
 log('Sou mais forte')
 
-// operador rest
+// Operador rest (agrupar parâmetros variados em uma array)
 function total(...numeros) {
     let total = 0
     numeros.forEach(n => total += n)

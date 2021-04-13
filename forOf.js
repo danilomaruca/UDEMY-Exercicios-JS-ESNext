@@ -30,7 +30,7 @@ for (let valor of assuntosMap.values()) {
     console.log(valor)
 }
 
-for (let [ch, vl] of assuntosMap.entries()) {
+for (let [ch, vl] of assuntosMap.entries()) {       //desestruturando as entradas
     console.log(ch, vl)
 }
 
